@@ -1,0 +1,84 @@
+/* ボディ全体：マージンを0にして、ページの空白を削除 */
+body {
+  margin: 0px;
+}
+/* ヘッダー範囲 */
+header {
+  background-color: rgb(112, 178, 251);
+  padding: 40px 0;
+}
+h1 {
+  padding-left: 40px;
+  margin: 0px;
+}
+/* メイン範囲 */
+main {
+  display: flex;
+}
+/* summary(テーブル)とprofile(画像プロフィール)の親要素 */
+.infomation {
+  background-color: rgb(196, 233, 227);
+  margin: 0px;
+  width: 70%;
+}
+/* summary(テーブル)の装飾範囲 */
+#summary {
+  padding-top: 10px;
+}
+table {
+  text-align: center;
+  margin: auto;
+  width: 700px;
+}
+#text-a {
+  width: 200px;
+}
+/* profile(画像プロフィール)の装飾範囲 */
+#profile {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#profile-detail {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 300px;
+  padding-right: 30px;
+}
+#profile-detail.p {
+  font-weight: bold;
+  margin: 0;
+}
+#introduction {
+  align-self: center;
+  text-align: center;
+}
+p {
+  margin: 5px;
+}
+.font {
+  font-weight: bold;
+}
+#text-content {
+  font-size: 20px;
+}
+/* サイドバーの装飾範囲 */
+#list {
+  background-color: rgb(196, 233, 202);
+  margin: 0px;
+  width: 30%;
+}
+.small-list {
+  padding-left: 10px;
+}
+/* フッターの装飾範囲 */
+footer {
+  margin: 0px;
+  padding: 30px 0;
+  background-color: rgb(124, 193, 83);
+}
+#copyright {
+  text-align: center;
+  margin: 0px;
+}
